@@ -4,7 +4,7 @@
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
-    &.is-#{$name}
+    &.badge-#{$name}
       &[data-badge]::after, &:not([data-badge])::after
         background: $color
         color: $color-invert
