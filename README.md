@@ -4,7 +4,7 @@ Bulma extension element named "badge" to display a number on text, button, ...
 Preview
 -----
 
-![Badge Element](https://img15.hostingpics.net/pics/978922ScreenShot20170712at202349.png)
+![Badge Element](https://img15.hostingpics.net/pics/241524ScreenShot20170726at124229.png)
 
 Usage
 -----
