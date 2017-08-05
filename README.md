@@ -35,3 +35,20 @@ Usage
   </div>
 </div>
 ```
+
+
+Integration
+---
+- Clone the [bulma repo](https://github.com/jgthms/bulma)
+- Under the `sass` folder, create a new folder called `extensions`
+- In this new folder, create a new file `badge.sass`
+- Copy the code form the `bulma-dage repo`'s [badge.sass](https://github.com/Wikiki/bulma-badge/blob/master/badge.sass) file into your new file
+- In the same folder create a new file `_all.sass` (this is not required, but will help when you add more extensions)
+- In this file add this code:
+```
+@charset "utf-8"
+@import "badge.sass"
+```
+At the end of the `bulma.sass` file, add this line: `@import "sass/extensions/_all"`
+
+Now, you can just build the bulma project with `npm run build`, and the output will be available in the `css folder`.
