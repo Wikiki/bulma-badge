@@ -40,7 +40,7 @@ This extension uses Bulma's color modifiers and have the following variables
 
 Name | Description | Default value    
 -----|-------------|---------------
-$badge-box-shadow | Shadow of badge (default it's displays a white border)  | 0 0 0 .2rem #fff
+$badge-box-shadow | Shadow of badge (by default it displays a white border)  | 0 0 0 .2rem #fff
 $badge-font-size | font size of badge's content | $size-7
 $badge-border-radius | Border radius of badge | 100%
 
