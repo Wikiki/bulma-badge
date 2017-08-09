@@ -1,3 +1,7 @@
+$badge-box-shadow: 0 0 0 .2rem #fff !default
+$badge-font-size: $size-7 !default
+$badge-border-radius: 100%
+
 .badge
   position: relative
   white-space: nowrap
@@ -11,8 +15,8 @@
   &[data-badge]::after, &:not([data-badge])::after
     background: $primary
     background-clip: padding-box
-    border-radius: 1rem
-    box-shadow: 0 0 0 .2rem #fff
+    border-radius: $badge-border-radius
+    box-shadow: $badge-box-shadow
     color: #fff
     content: attr(data-badge)
     display: inline-block
@@ -20,7 +24,7 @@
     -ms-transform: translate(-0.2rem, -1rem)
     transform: translate(-0.2rem, -1rem)
   &[data-badge]::after
-    font-size: $size-7
+    font-size: $badge-font-size
     height: 1.8rem
     line-height: 1
     min-width: 1.8rem
