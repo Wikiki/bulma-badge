@@ -1,6 +1,6 @@
-$badge-box-shadow: 0 0 0 .2rem #fff !default
+$badge-box-shadow: 0 0 0 .1rem $white !default
 $badge-font-size: $size-7 !default
-$badge-border-radius: 100% !default
+$badge-border-radius: 1rem !default
 
 .badge
   position: relative
@@ -17,7 +17,7 @@ $badge-border-radius: 100% !default
     background-clip: padding-box
     border-radius: $badge-border-radius
     box-shadow: $badge-box-shadow
-    color: #fff
+    color: $white
     content: attr(data-badge)
     display: inline-block
     -webkit-transform: translate(-0.2rem, -1rem)
@@ -26,7 +26,6 @@ $badge-border-radius: 100% !default
   &[data-badge]::after
     font-size: $badge-font-size
     height: 1.8rem
-    line-height: 1
     min-width: 1.8rem
     padding: .3rem .5rem
     text-align: center
