@@ -15,7 +15,16 @@ $badge-border-radius: 1rem !default
     line-height: $size * .5
   &[data-badge=""]::after
     width: $badgeSize
-
+  &.is-badge-left
+    &::after
+      left: calc(0px - ( #{$badgeSize} / 2 ))
+  &.is-badge-bottom
+    &::after
+      top: calc(100% - ( #{$badgeSize} / 2 ))
+  &.is-badge-bottom-left
+    &::after
+      left: calc(0px - ( #{$badgeSize} / 2 ))
+      top: calc(100% - ( #{$badgeSize} / 2 ))
 
 .badge
   position: relative
@@ -40,9 +49,6 @@ $badge-border-radius: 1rem !default
   &[data-badge=""]::after
     display: inline-block
     vertical-align: inherit
-
-  &.is-badge-bottom
-    top: 98%
 
   @each $name, $pair in $colors
     $color: nth($pair, 1)
