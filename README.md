@@ -10,4 +10,4 @@ Bulma's extension element named "badge" to display a number on text, button, ...
 
 Documentation & Demo
 ---
-You can find the Documentation and a demo [here](https://wikiki.github.io/bulma-extensions/badge)
+You can find the Documentation and a demo [here](https://wikiki.github.io/elements/badge/)
