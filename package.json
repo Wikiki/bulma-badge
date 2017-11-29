@@ -1,8 +1,8 @@
 {
   "name": "bulma-badge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Display a badge element in front of Bulma's element in different colors.",
-  "main": "index.js",
+  "main": "badge.sass",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/Wikiki/bulma-badge/issues"
   },
-  "homepage": "https://github.com/Wikiki/bulma-badge#readme"
+  "homepage": "https://github.com/Wikiki/bulma-badge#readme",
+  "devDependencies": {
+    "bulma": "^0.6.1"
+  },
+  "files": [
+    "badge.sass",
+    "badge.css",
+    "badge.min.css",
+    "LICENSE",
+    "README.md"
+  ]
 }
