@@ -1,0 +1,23 @@
+{
+  "name": "bulma-badge",
+  "description": "Display a badge element in front of Bulma's element in different colors.",
+  "main": "badge.sass",
+  "authors": [
+    "Wikiki <wikiki@protonmail.com> (https://wikiki.github.io/bulma-extensions/overview)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Bulma",
+    "extensions",
+    "bulma",
+    "bulma.io"
+  ],
+  "homepage": "https://github.com/Wikiki/bulma-badge",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
