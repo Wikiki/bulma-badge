@@ -1,6 +1,6 @@
 # bulma-badge
 Bulma's extension element named "badge" to display a number on text, button, ...
-(find all my bulma's extensions [here](https://wikiki.github.io/bulma-extensions/overview))
+(find all my bulma's extensions [here](https://wikiki.github.io/))
 
 [![npm](https://img.shields.io/npm/v/bulma-badge.svg)](https://www.npmjs.com/package/bulma-badge)
 [![npm](https://img.shields.io/npm/dm/bulma-badge.svg)](https://www.npmjs.com/package/bulma-badge)
