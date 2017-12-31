@@ -16,7 +16,6 @@
 .badge[data-badge]::after {
   position: absolute;
   left: 100%;
-  z-index: 99;
   margin: 0;
   background: #00d1b2;
   background-clip: padding-box;
