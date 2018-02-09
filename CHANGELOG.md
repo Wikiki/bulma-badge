@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/Wikiki/bulma-badge/compare/v0.1.0...v0.1.3) (2018-02-09)
+
+
+### Features
+
+* **gulp:** Add gulp dependencies ([fcb2a2a](https://github.com/Wikiki/bulma-badge/commit/fcb2a2a))
+
+
+
 # Change Log
 
 ## [Unreleased](https://github.com/wikiki/bulma-badge/tree/HEAD)
