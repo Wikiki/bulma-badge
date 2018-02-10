@@ -2,7 +2,7 @@
   "name": "bulma-badge",
   "description": "Display a badge element in front of Bulma's element in different colors.",
   "main": "badge.sass",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "authors": [
     "Wikiki <wikiki@protonmail.com> (https://wikiki.github.io/bulma-extensions/overview)"
   ],

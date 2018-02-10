@@ -1,3 +1,8 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/Wikiki/bulma-badge/compare/0.1.6...1.0.0) (2018-02-10)
+
+
+
 <a name="0.1.6"></a>
 ## [0.1.6](https://github.com/Wikiki/bulma-badge/compare/0.1.5...0.1.6) (2018-02-10)
 
