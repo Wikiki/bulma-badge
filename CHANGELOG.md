@@ -1,3 +1,21 @@
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/Wikiki/bulma-badge/compare/v0.1.0...v0.1.4) (2018-02-10)
+
+
+### Bug Fixes
+
+* **gulp:** Correct dist filenames ([f63a1d8](https://github.com/Wikiki/bulma-badge/commit/f63a1d8))
+* **package:** Correct file paths ([497e46b](https://github.com/Wikiki/bulma-badge/commit/497e46b))
+* **travis:** Remove configuration ([2c6a845](https://github.com/Wikiki/bulma-badge/commit/2c6a845))
+
+
+### Features
+
+* **gulp:** Add gulp dependencies ([fcb2a2a](https://github.com/Wikiki/bulma-badge/commit/fcb2a2a))
+* **gulp:** Add release task ([0f6fc0d](https://github.com/Wikiki/bulma-badge/commit/0f6fc0d))
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/Wikiki/bulma-badge/compare/v0.1.0...v0.1.3) (2018-02-09)
 
