@@ -2,7 +2,7 @@
   "name": "bulma-badge",
   "version": "0.1.3",
   "description": "Display a badge element in front of Bulma's element in different colors.",
-  "main": "badge.sass",
+  "main": "dist/bulma-badge.sass",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -47,7 +47,7 @@
     "run-sequence": "^2.2.1"
   },
   "files": [
-    "dist/badge.sass",
+    "dist/bulma-badge.sass",
     "dist/bulma-badge.min.css",
     "LICENSE",
     "README.md"
