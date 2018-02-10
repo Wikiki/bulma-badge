@@ -1,3 +1,13 @@
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/Wikiki/bulma-badge/compare/0.1.4...0.1.5) (2018-02-10)
+
+
+### Bug Fixes
+
+* **gulp:** Use UMD modules style ([8c0da02](https://github.com/Wikiki/bulma-badge/commit/8c0da02))
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/Wikiki/bulma-badge/compare/v0.1.0...v0.1.3) (2018-02-09)
 
