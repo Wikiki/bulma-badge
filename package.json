@@ -1,6 +1,6 @@
 {
   "name": "bulma-badge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display a badge element in front of Bulma's element in different colors.",
   "main": "dist/bulma-badge.sass",
   "scripts": {
