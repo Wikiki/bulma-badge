@@ -80,3 +80,9 @@ $badge-border-radius: 1rem !default
     +badge-size($size-medium)
   &.is-badge-large
     +badge-size($size-large)
+
+ // IE FIX
+// On IE badge was cropped
+.badge
+  &.button:not(.is-clipped)
+    overflow: visible
