@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en" class="route-demonstration">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Display a badge element in front of another Bulma element with different colors.">
+
+  <title>Documentation</title>
+
+  <link rel="canonical" href="/demonstration/">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="stylesheet">
+  <link href="/assets/css/highlight.css" rel="stylesheet">
+  <link href="/assets/css/documentation.min.css" rel="stylesheet">
+  <link href="/assets/css/bulma-badge.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
+  <!-- Load Font Awesome 5 -->
+  <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"></script>
+
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+</head>
+
+<body>
+  <div class="mobile-burger burger is-hidden-desktop" data-target="#doc-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="columns is-gapless">
+    <div id="doc-menu" class="column is-2 has-background-grey-lighter menu is-mobile">
+      <section class="section">
+        <h1 class="title is-4 has-text-weight-semibold has-text-centered">Badge <span class="is-size-5 has-text-primary has-text-weight-light">documentation</span></h1>
+        <div class="has-text-centered">
+          <span>
+            <img src="https://badgen.net/badge/Version/3.0.0/green" alt="v3.0.0">
+          </span>
+        </div>
+      </section>
+      
+<ul class="menu-list">
+
+  
+  <li>
+    <a class="menu-item" href="/demonstration">Demonstration</a>
+  </li>
+  
+
+  
+  <li class="menu-item has-dropdown">
+    <a class="menu-title">
+      Quick Start
+      <span class="menu-caret"></span>
+    </a>
+    <ul class="menu-dropdown">
+      
+        <li><a class="menu-item" href="/#features">Features</a></li>
+      
+        <li><a class="menu-item" href="/#installation">Installation</a></li>
+      
+        <li><a class="menu-item" href="/#content">Content</a></li>
+      
+        <li><a class="menu-item" href="/#integration">Integration</a></li>
+      
+    </ul>
+  </li>
+  
+
+  
+  <li>
+    <a class="menu-item" href="/customization">Customization</a>
+  </li>
+  
+
+  
+  <li>
+    <a class="menu-item" href="/changelog">Changelog</a>
+  </li>
+  
+
+</ul>
+
+    </div>
+    <div class="column">
+      <div class="hero is-light">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title is-2 is-spaced has-text-weight-semibold">Demonstration</h1>
+            
+          </div>
+        </div>
+      </div>
+      <section class="section">
+        <div class="container is-fluid">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="
+    bd-snippet
+    bd-is-vertical
+    
+    bd-is-one-half
+    
+    ">
+	<div class="bd-snippet-preview ">
+		
+<button class="button " data-badge="8">Button</button>
+
+	</div>
+	<div class="bd-snippet-code highlight-full ">
+		<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button "</span> <span class="na">data-badge=</span><span class="s">"8"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span></code></pre></figure>
+	</div>
+</div>
+
+
+
+<a href="#rounded-style" id="rounded-style" class="title is-4 has-text-weight-normal is-spaced anchor">
+  <span class="anchor-name">Rounded Style</span>
+</a>
+
+
+<div class="
+    bd-snippet
+    bd-is-vertical
+    
+    bd-is-one-half
+    
+    ">
+	<div class="bd-snippet-preview ">
+		
+<button class="button has-badge-rounded" data-badge="8">Button</button>
+
+	</div>
+	<div class="bd-snippet-code highlight-full ">
+		<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button has-badge-rounded"</span> <span class="na">data-badge=</span><span class="s">"8"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span></code></pre></figure>
+	</div>
+</div>
+
+
+
+<a href="#colors" id="colors" class="title is-4 has-text-weight-normal is-spaced anchor">
+  <span class="anchor-name">Colors</span>
+</a>
+
+
+<div class="
+    bd-snippet
+    bd-is-horizontal
+    
+    bd-is-4
+    
+    ">
+	<div class="bd-snippet-preview ">
+		
+<div class="columns">
+  <div class="column">
+    <span class="badge" data-badge="">
+      Notifications
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-success" data-badge="">
+      Notifications
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-warning" data-badge="">
+      Notifications
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-danger" data-badge="">
+      Notifications
+    </span>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column">
+    <span class="badge" data-badge="8">
+      Notifications
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-success" data-badge="88">
+      Notifications
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-danger" data-badge="888">
+      Notifications
+    </span>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column">
+    <div class="block">
+      <button class="button " data-badge="">Button</button>
+      <button class="button " data-badge="8">Button</button>
+    </div>
+  </div>
+  <div class="column">
+    <div class="block">
+      <button class="button is-primary badge" data-badge="">Button</button>
+      <button class="button is-info badge" data-badge="8">Button</button>
+    </div>
+  </div>
+</div>
+
+	</div>
+	<div class="bd-snippet-code highlight-full bd-is-more bd-is-more-clipped">
+		<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"badge"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-success"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-warning"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-danger"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"badge"</span> <span class="na">data-badge=</span><span class="s">"8"</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-success"</span> <span class="na">data-badge=</span><span class="s">"88"</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-danger"</span> <span class="na">data-badge=</span><span class="s">"888"</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"block"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button "</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button "</span> <span class="na">data-badge=</span><span class="s">"8"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"block"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-primary badge"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-info badge"</span> <span class="na">data-badge=</span><span class="s">"8"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+	</div>
+</div>
+
+
+
+<a href="#sized" id="sized" class="title is-4 has-text-weight-normal is-spaced anchor">
+  <span class="anchor-name">Sized</span>
+</a>
+
+
+<div class="
+    bd-snippet
+    bd-is-horizontal
+    
+    bd-is-3
+    
+    ">
+	<div class="bd-snippet-preview ">
+		
+<div class="columns">
+  <div class="column">
+    <span class="has-badge-rounded has-badge-success has-badge-small" data-badge="10">
+      Small badge
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-success" data-badge="10">
+      Normal badge
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-warning has-badge-medium" data-badge="10">
+      Medium badge
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-danger has-badge-large" data-badge="10">
+      Large badge
+    </span>
+  </div>
+</div>
+
+	</div>
+	<div class="bd-snippet-code highlight-full bd-is-more bd-is-more-clipped">
+		<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-success has-badge-small"</span> <span class="na">data-badge=</span><span class="s">"10"</span><span class="nt">&gt;</span>
+      Small badge
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-success"</span> <span class="na">data-badge=</span><span class="s">"10"</span><span class="nt">&gt;</span>
+      Normal badge
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-warning has-badge-medium"</span> <span class="na">data-badge=</span><span class="s">"10"</span><span class="nt">&gt;</span>
+      Medium badge
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-danger has-badge-large"</span> <span class="na">data-badge=</span><span class="s">"10"</span><span class="nt">&gt;</span>
+      Large badge
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+	</div>
+</div>
+
+
+
+<a href="#outlined" id="outlined" class="title is-4 has-text-weight-normal is-spaced anchor">
+  <span class="anchor-name">Outlined</span>
+</a>
+
+<h4 class="subtitle">You can display an outlined has-badge-rounded by using the <code>.has-badge-outlined</code> modifier.</h4>
+
+<div class="
+    bd-snippet
+    bd-is-horizontal
+    
+    bd-is-3
+    
+    ">
+	<div class="bd-snippet-preview ">
+		
+<div class="columns">
+  <div class="column">
+    <span class="has-badge-rounded has-badge-outlined" data-badge="">
+      Notifications
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-success has-badge-outlined" data-badge="">
+      Notifications
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-warning has-badge-outlined" data-badge="">
+      Notifications
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-danger has-badge-outlined" data-badge="">
+      Notifications
+    </span>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column">
+    <span class="has-badge-rounded has-badge-outlined" data-badge="8">
+      Notifications
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-success has-badge-outlined" data-badge="88">
+      Notifications
+    </span>
+  </div>
+  <div class="column">
+    <span class="has-badge-rounded has-badge-danger has-badge-outlined" data-badge="888">
+      Notifications
+    </span>
+  </div>
+</div>
+
+<div class="block">
+  <button class="button has-badge-outlined" data-badge="">Button</button>
+  <button class="button has-badge-outlined" data-badge="8">Button</button>
+</div>
+
+<div class="block">
+  <button class="button is-primary has-badge-outlined" data-badge="">Button</button>
+  <button class="button is-info has-badge-outlined" data-badge="8">Button</button>
+</div>
+
+	</div>
+	<div class="bd-snippet-code highlight-full bd-is-more bd-is-more-clipped">
+		<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-success has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-warning has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-danger has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">"8"</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-success has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">"88"</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-rounded has-badge-danger has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">"888"</span><span class="nt">&gt;</span>
+      Notifications
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"block"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">"8"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"block"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-primary has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">""</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button is-info has-badge-outlined"</span> <span class="na">data-badge=</span><span class="s">"8"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+	</div>
+</div>
+
+
+
+<a href="#styles" id="styles" class="title is-4 has-text-weight-normal is-spaced anchor">
+  <span class="anchor-name">Styles</span>
+</a>
+
+<h4 class="subtitle">You can change the has-badge-rounded position using one of the following modifiers: <code>.has-badge-left</code> <code>.has-badge-bottom</code> <code>.has-badge-bottom-left</code> .</h4>
+
+<div class="
+    bd-snippet
+    bd-is-horizontal
+    
+    bd-is-3
+    
+    ">
+	<div class="bd-snippet-preview ">
+		
+<div class="columns">
+  <div class="column">
+    <span class="button has-badge-rounded has-badge-success has-badge-left" data-badge="10">
+      Top left badge
+    </span>
+  </div>
+  <div class="column">
+    <span class="button has-badge-rounded has-badge-success" data-badge="10">
+      Top right (default)
+    </span>
+  </div>
+  <div class="column">
+    <span class="button has-badge-rounded has-badge-warning has-badge-bottom-left" data-badge="10">
+      Bottom left badge
+    </span>
+  </div>
+  <div class="column">
+    <span class="button has-badge-rounded has-badge-danger has-badge-bottom" data-badge="10">
+      Bottom right badge
+    </span>
+  </div>
+</div>
+
+	</div>
+	<div class="bd-snippet-code highlight-full bd-is-more bd-is-more-clipped">
+		<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"button has-badge-rounded has-badge-success has-badge-left"</span> <span class="na">data-badge=</span><span class="s">"10"</span><span class="nt">&gt;</span>
+      Top left badge
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"button has-badge-rounded has-badge-success"</span> <span class="na">data-badge=</span><span class="s">"10"</span><span class="nt">&gt;</span>
+      Top right (default)
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"button has-badge-rounded has-badge-warning has-badge-bottom-left"</span> <span class="na">data-badge=</span><span class="s">"10"</span><span class="nt">&gt;</span>
+      Bottom left badge
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"button has-badge-rounded has-badge-danger has-badge-bottom"</span> <span class="na">data-badge=</span><span class="s">"10"</span><span class="nt">&gt;</span>
+      Bottom right badge
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+	</div>
+</div>
+
+
+<br /><br />
+<h4 class="subtitle">You can display badge inline using <code>has-badge-inline</code> modifier.</h4>
+
+<div class="
+    bd-snippet
+    bd-is-horizontal
+    
+    bd-is-3
+    
+    ">
+	<div class="bd-snippet-preview ">
+		
+<button class="button has-badge-inline" data-badge="8">Button</button>
+<button class="button has-badge-inline has-badge-rounded" data-badge="8">Button</button>
+
+	</div>
+	<div class="bd-snippet-code highlight-full bd-is-more bd-is-more-clipped">
+		<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button has-badge-inline"</span> <span class="na">data-badge=</span><span class="s">"8"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button has-badge-inline has-badge-rounded"</span> <span class="na">data-badge=</span><span class="s">"8"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span></code></pre></figure>
+	</div>
+</div>
+
+
+
+<a href="#more-examples" id="more-examples" class="title is-4 has-text-weight-normal is-spaced anchor">
+  <span class="anchor-name">More examples</span>
+</a>
+
+
+<div class="
+    bd-snippet
+    bd-is-horizontal
+    
+    bd-is-3
+    
+    ">
+	<div class="bd-snippet-preview ">
+		
+<nav class="navbar is-transparent">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+      <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112"
+        height="28">
+    </a>
+    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="https://bulma.io/">
+        <span class="has-badge-inline" data-badge="10">Home</span>
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+          <span class="has-badge-success has-badge-inline" data-badge="2">Docs</span>
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+            <span class="has-badge-warning has-badge-inline" data-badge="1">Overview</span>
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+            Modifiers
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+            Columns
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+            Layout
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+            Form
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+            <span class="has-badge-inline" data-badge="2">Elements</span>
+          </a>
+          <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+            Components
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000"
+              target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
+              <span class="icon">
+                <i class="fab fa-twitter"></i>
+              </span>
+              <span>
+                Tweet
+              </span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-primary" data-badge="2" href="https://github.com/jgthms/bulma/releases/download/0.7.4/bulma-0.7.4.zip">
+              <span class="icon">
+                <i class="fas fa-download"></i>
+              </span>
+              <span>Download</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+	<div class="bd-snippet-code highlight-full bd-is-more bd-is-more-clipped">
+		<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar is-transparent"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-brand"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-item"</span> <span class="na">href=</span><span class="s">"https://bulma.io"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"https://bulma.io/images/bulma-logo.png"</span> <span class="na">alt=</span><span class="s">"Bulma: a modern CSS framework based on Flexbox"</span> <span class="na">width=</span><span class="s">"112"</span>
+        <span class="na">height=</span><span class="s">"28"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-burger burger"</span> <span class="na">data-target=</span><span class="s">"navbarExampleTransparentExample"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;span&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;span&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;span&gt;&lt;/span&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"navbarExampleTransparentExample"</span> <span class="na">class=</span><span class="s">"navbar-menu"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-start"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-item"</span> <span class="na">href=</span><span class="s">"https://bulma.io/"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-inline"</span> <span class="na">data-badge=</span><span class="s">"10"</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-item has-dropdown is-hoverable"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-link"</span> <span class="na">href=</span><span class="s">"https://bulma.io/documentation/overview/start/"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-success has-badge-inline"</span> <span class="na">data-badge=</span><span class="s">"2"</span><span class="nt">&gt;</span>Docs<span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-dropdown is-boxed"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-item"</span> <span class="na">href=</span><span class="s">"https://bulma.io/documentation/overview/start/"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-warning has-badge-inline"</span> <span class="na">data-badge=</span><span class="s">"1"</span><span class="nt">&gt;</span>Overview<span class="nt">&lt;/span&gt;</span>
+          <span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-item"</span> <span class="na">href=</span><span class="s">"https://bulma.io/documentation/modifiers/syntax/"</span><span class="nt">&gt;</span>
+            Modifiers
+          <span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-item"</span> <span class="na">href=</span><span class="s">"https://bulma.io/documentation/columns/basics/"</span><span class="nt">&gt;</span>
+            Columns
+          <span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-item"</span> <span class="na">href=</span><span class="s">"https://bulma.io/documentation/layout/container/"</span><span class="nt">&gt;</span>
+            Layout
+          <span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-item"</span> <span class="na">href=</span><span class="s">"https://bulma.io/documentation/form/general/"</span><span class="nt">&gt;</span>
+            Form
+          <span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;hr</span> <span class="na">class=</span><span class="s">"navbar-divider"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-item"</span> <span class="na">href=</span><span class="s">"https://bulma.io/documentation/elements/box/"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"has-badge-inline"</span> <span class="na">data-badge=</span><span class="s">"2"</span><span class="nt">&gt;</span>Elements<span class="nt">&lt;/span&gt;</span>
+          <span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-item is-active"</span> <span class="na">href=</span><span class="s">"https://bulma.io/documentation/components/breadcrumb/"</span><span class="nt">&gt;</span>
+            Components
+          <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-end"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"field is-grouped"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"bd-tw-button button"</span> <span class="na">data-social-network=</span><span class="s">"Twitter"</span> <span class="na">data-social-action=</span><span class="s">"tweet"</span> <span class="na">data-social-target=</span><span class="s">"http://localhost:4000"</span>
+              <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">href=</span><span class="s">"https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;amp;hashtags=bulmaio&amp;amp;url=http://localhost:4000&amp;amp;via=jgthms"</span><span class="nt">&gt;</span>
+              <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fab fa-twitter"</span><span class="nt">&gt;&lt;/i&gt;</span>
+              <span class="nt">&lt;/span&gt;</span>
+              <span class="nt">&lt;span&gt;</span>
+                Tweet
+              <span class="nt">&lt;/span&gt;</span>
+            <span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;/p&gt;</span>
+          <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"control"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button is-primary"</span> <span class="na">data-badge=</span><span class="s">"2"</span> <span class="na">href=</span><span class="s">"https://github.com/jgthms/bulma/releases/download/0.7.4/bulma-0.7.4.zip"</span><span class="nt">&gt;</span>
+              <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fas fa-download"</span><span class="nt">&gt;&lt;/i&gt;</span>
+              <span class="nt">&lt;/span&gt;</span>
+              <span class="nt">&lt;span&gt;</span>Download<span class="nt">&lt;/span&gt;</span>
+            <span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/nav&gt;</span></code></pre></figure>
+	</div>
+</div>
+
+
+
+<div class="
+    bd-snippet
+    bd-is-horizontal
+    
+    bd-is-3
+    
+    ">
+	<div class="bd-snippet-preview ">
+		
+<div class="tabs is-centered">
+  <ul>
+    <li class="is-active"><a>Pictures</a></li>
+    <li><a class="has-badge-success has-badge-inline" data-badge="1">Music</a></li>
+    <li><a class="has-badge-warning has-badge-inline" data-badge="2">Videos</a></li>
+    <li><a class="has-badge-danger has-badge-inline" data-badge="10">Documents</a></li>
+  </ul>
+</div>
+
+	</div>
+	<div class="bd-snippet-code highlight-full bd-is-more bd-is-more-clipped">
+		<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs is-centered"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"is-active"</span><span class="nt">&gt;&lt;a&gt;</span>Pictures<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">class=</span><span class="s">"has-badge-success has-badge-inline"</span> <span class="na">data-badge=</span><span class="s">"1"</span><span class="nt">&gt;</span>Music<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">class=</span><span class="s">"has-badge-warning has-badge-inline"</span> <span class="na">data-badge=</span><span class="s">"2"</span><span class="nt">&gt;</span>Videos<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">class=</span><span class="s">"has-badge-danger has-badge-inline"</span> <span class="na">data-badge=</span><span class="s">"10"</span><span class="nt">&gt;</span>Documents<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+	</div>
+</div>
+
+
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="/assets/js/doc.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
