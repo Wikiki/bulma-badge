@@ -1,6 +1,6 @@
 {
   "name": "bulma-badge",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Display a badge element in front of Bulma's element in different colors.",
   "style": "dist/css/bulma-badge.min.css",
   "scripts": {

@@ -2,7 +2,7 @@
 title:         "Badge"
 description:   "Display a badge element in front of another Bulma element with different colors."
 version:       3.0.0
-# url:           https://demo.creativebulma.net/elements/badge/
+url:           https://demo.creativebulma.net/elements/badge/
 
 # Build
 markdown:      kramdown
