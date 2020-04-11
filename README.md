@@ -1,3 +1,5 @@
+## Package is abandoned in favor of http://github.com/creativebulma/bulma-badge
+
 # bulma-badge
 Bulma's extension element named "badge" to display a number on text, button, ...
 (find all my bulma's extensions [here](https://wikiki.github.io/))
